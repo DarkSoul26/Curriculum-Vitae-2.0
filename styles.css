@@ -1,0 +1,177 @@
+body {
+  margin-left: 0px;
+  margin-top: 100px;
+  text-align: center;
+  background-color: darkgrey;
+}
+h1 {
+  color: #66bfbf;
+  margin-top: 50px;
+  display: inline;
+  font-size: 2.5rem;
+  line-height: 2;
+  /* font-family: "Dancing Script", cursive; */
+  font-family: "Pacifico", cursive;
+  /* font-family: "Quicksand", sans-serif; */
+}
+h3 {
+  color: #11999e;
+  font-weight: 700;
+  font-family: "Quicksand", sans-serif;
+}
+h2 {
+  color: #66bfbf;
+  font-size: 30px;
+  font-family: "Quicksand", sans-serif;
+}
+a {
+  color: #11999e;
+}
+p {
+  font-weight: 500;
+  font-family: "Quicksand", sans-serif;
+}
+.HR {
+  width: 10%;
+  padding-bottom: 40px;
+  background-color: none;
+  border-color: #495464;
+  border-width: 5px;
+  border-style: none;
+  border-top-style: dotted;
+}
+/* 
+visiblity (hidden or not) and display (inline,block,inline-block,none) properties 
+*/
+
+/* position: relative (realtive to the previous position), 
+static, absolute (move relative to the parent), fixed (if we scroll 
+still the object is at the same position) */
+
+/* img {
+  position: relative;
+  top: 20px;
+} */
+.top {
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  border: solid;
+  border-width: 10px;
+}
+.mid {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  border: solid;
+  text-align: center;
+  margin-left: 260px;
+  border-width: 20px;
+}
+.bottom {
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+  border: solid;
+  margin-left: 500px;
+  border-width: 10px;
+}
+.top-container {
+  background-color: #eaf6f6;
+  padding-top: 100px;
+}
+.middle-container {
+  background-color: white;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+.top-img {
+  top: 130px;
+  right: 300px;
+  position: absolute;
+}
+
+.mid-img {
+  left: 300px;
+  top: 350px;
+  position: absolute;
+}
+#dp {
+  height: 200px;
+}
+.WebD {
+  font-weight: normal;
+}
+.Sanchit {
+  font-weight: normal;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px;
+  line-height: 2;
+  text-align: left;
+}
+.profile {
+  padding-bottom: 40px;
+}
+.skills {
+  padding-top: 10px;
+}
+.prog {
+  width: 25%;
+  height: 25%;
+  margin-right: 30px;
+  float: left;
+}
+.ball {
+  width: 25%;
+  height: 25%;
+  float: right;
+}
+.Me-Button {
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  color: #ffffff;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  width: 150px;
+  padding: 5px;
+  background-color: #66bfbf;
+  -webkit-box-shadow: 2px 1px 100px 9px #495464;
+  -moz-box-shadow: 2px 1px 100px 9px #495464;
+  box-shadow: 2px 1px 100px 9px #495464;
+  text-shadow: 1px 1px 20px #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.Me-Button:hover {
+  background: #495464;
+  border: solid #ffffff 0;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  text-decoration: none;
+}
+.contact-me {
+  margin-bottom: 60px;
+  line-height: 2;
+}
+.bottom-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #66bfbf;
+}
+.me-footer {
+  color: #eaf6f6;
+}
+.footer-link {
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  margin: 20px;
+}
